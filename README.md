@@ -19,15 +19,22 @@ The extra scripts were made to convert the annotations to pascal VOC .txt format
 The training was done over yolov5s.pt pre-trained weight with 150 epochs; 100 epochs for the first run (exp20) with the two datasets and 50 for the second (exp23) with the addition of bald people images.
 
 ### Results
+<img src="https://github.com/vitorozaki/hardhat-detector/blob/master/runs/results/005346_jpg.rf.8bd69fbd424d324d18fe1474a91261ab.jpg">
+<img src="https://github.com/vitorozaki/hardhat-detector/blob/master/runs/results/005382_jpg.rf.bad5f80a3fa19ab150532b976adaa2f1.jpg">
+<img src="https://github.com/vitorozaki/hardhat-detector/blob/master/runs/results/005385_jpg.rf.aa3ca01ed31ce9c709f480c7b4293342.jpg">
+<img src="https://github.com/vitorozaki/hardhat-detector/blob/master/runs/results/005428_jpg.rf.c07893f3665caaac1d1dc732830e7097.jpg">
+<img src="https://github.com/vitorozaki/hardhat-detector/blob/master/runs/results/005536_jpg.rf.4b788ae41afe852fe486e343146047d9.jpg">
+<img src="https://github.com/vitorozaki/hardhat-detector/blob/master/runs/results/006967_jpg.rf.9bb3ed18c5e660a119ca04271d8fe72c.jpg">
+<img src="https://github.com/vitorozaki/hardhat-detector/blob/master/runs/results/007004_jpg.rf.c85aba0ea86d520bed6628bdc78a61cf.jpg">
 
 
 
 
 <p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50">
-<img src="https://user-images.githubusercontent.com/62910058/170049280-a2dbfb89-c068-421c-80ab-d2fa713f32ca.png" width="50">
-<img src="https://user-images.githubusercontent.com/62910058/170049296-ce791ab4-37df-4ab6-b65e-1e0e70fa566e.png" width="50">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="50">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="30">
+<img src="https://user-images.githubusercontent.com/62910058/170049280-a2dbfb89-c068-421c-80ab-d2fa713f32ca.png" width="30">
+<img src="https://user-images.githubusercontent.com/62910058/170049296-ce791ab4-37df-4ab6-b65e-1e0e70fa566e.png" width="30">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="30">
 </p>
 
 ## Dataset reference
