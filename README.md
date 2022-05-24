@@ -15,5 +15,5 @@ The extra scripts were made to convert the annotations to pascal VOC .txt format
 
 The training was done over yolov5s.pt pre-trained weight with 150 epochs; 100 epochs for the first run (exp20) with the two datasets and 50 for the second (exp23) with the addition of bald people images.
 
-![logo-colab-small](https://user-images.githubusercontent.com/62910058/170049280-a2dbfb89-c068-421c-80ab-d2fa713f32ca.png)
-![logo-kaggle-small](https://user-images.githubusercontent.com/62910058/170049296-ce791ab4-37df-4ab6-b65e-1e0e70fa566e.png)
+<img src="https://user-images.githubusercontent.com/62910058/170049280-a2dbfb89-c068-421c-80ab-d2fa713f32ca.png">
+<img src="https://user-images.githubusercontent.com/62910058/170049296-ce791ab4-37df-4ab6-b65e-1e0e70fa566e.png">
