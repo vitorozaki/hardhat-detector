@@ -3,6 +3,8 @@ Custom object detection model for safety helmet detection. Trained with yolov5 m
 
 This repository is one of my projects during my internship at Brain (Brazilian Artificial Inteligence Nucleus - https://ipfacens.com.br/brain-2/), for research purposes.It was completly implemented with python in jupyter notebook and google colab. 
 
+<p> link to yolov5 repo: https://github.com/ultralytics/yolov5 </p>
+
 ### Dataset
 For this project, it was used two datasets: 
 
@@ -26,7 +28,6 @@ The training was done over yolov5s.pt pre-trained weight with 150 epochs; 100 ep
 <img src="https://github.com/vitorozaki/hardhat-detector/blob/master/runs/results/005536_jpg.rf.4b788ae41afe852fe486e343146047d9.jpg">
 <img src="https://github.com/vitorozaki/hardhat-detector/blob/master/runs/results/006967_jpg.rf.9bb3ed18c5e660a119ca04271d8fe72c.jpg">
 <img src="https://github.com/vitorozaki/hardhat-detector/blob/master/runs/results/007004_jpg.rf.c85aba0ea86d520bed6628bdc78a61cf.jpg">
-
 
 
 
