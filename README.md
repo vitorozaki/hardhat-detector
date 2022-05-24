@@ -9,8 +9,11 @@ For this project, it was used two datasets: plus a few images of bald people col
 <p> https://github.com/HCIILAB/SCUT-HEAD-Dataset-Release </p>
 
 but, the model presented problems while detecting bald people, therefore, over 200 images were labelled manually and added to the dataset.
+The objects were classified between: helmet (0) and no-helmet (1).
 
 The extra scripts were made to convert the annotations to pascal VOC .txt format as it is required for yolov5 model. Besides, as it was used an extra dataset, it was necessary to convert the classes id's and remove a third unwanted class.
 
 The training was done over yolov5s.pt pre-trained weight with 150 epochs; 100 epochs for the first run (exp20) with the two datasets and 50 for the second (exp23) with the addition of bald people images.
 
+![logo-colab-small](https://user-images.githubusercontent.com/62910058/170049280-a2dbfb89-c068-421c-80ab-d2fa713f32ca.png)
+![logo-kaggle-small](https://user-images.githubusercontent.com/62910058/170049296-ce791ab4-37df-4ab6-b65e-1e0e70fa566e.png)
