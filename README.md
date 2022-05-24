@@ -1,8 +1,9 @@
 # hardhat-detector
 Custom object detection model for safety helmet detection. Trained with yolov5 model.
 
-This repository is one of my projects during my internship at Brain (Brazilian Artificial Inteligence Nucleus - https://ipfacens.com.br/brain-2/), for research purposes.
-It was completly implemented with python in jupyter notebook and google colab. 
+This repository is one of my projects during my internship at Brain (Brazilian Artificial Inteligence Nucleus - https://ipfacens.com.br/brain-2/), for research purposes.It was completly implemented with python in jupyter notebook and google colab. 
+
+### Dataset
 For this project, it was used two datasets: plus a few images of bald people collected and labeled manually:
 
 <p> https://www.kaggle.com/datasets/andrewmvd/hard-hat-detection </p>
@@ -13,7 +14,14 @@ The objects were classified between: helmet (0) and no-helmet (1).
 
 The extra scripts were made to convert the annotations to pascal VOC .txt format as it is required for yolov5 model. Besides, as it was used an extra dataset, it was necessary to convert the classes id's and remove a third unwanted class.
 
+### Training
+
 The training was done over yolov5s.pt pre-trained weight with 150 epochs; 100 epochs for the first run (exp20) with the two datasets and 50 for the second (exp23) with the addition of bald people images.
+
+### Results
+
+
+
 
 <p>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50">
